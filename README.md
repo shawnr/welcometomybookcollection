@@ -1,4 +1,4 @@
-welcometomybookcollection
+WelcomeToMyBookCollection.com
 =========================
 
-A site dedicated to the idea of Glenn Danzig's book collection.
+A tribute to Glenn Danzig's book collection.
