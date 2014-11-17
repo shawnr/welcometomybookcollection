@@ -2,14 +2,18 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>welcometomybookcollection</title>
+    <title>Welcome to My Book Collection</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="Welcome to my book collection..." />
+    <meta property="og:type" content="humor" />
+    <meta property="og:url" content="http://welcometomybookcollection.com" />
+    <meta property="og:image" content="images/welcometomybookcollection_sub.gif" />
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -22,40 +26,15 @@
     <![endif]-->
 
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">welcometomybookcollection</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>LESS</h4>
-          <p>LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions.</p>
-
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-
-        </div>
-      </div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    <div class="container-fluid">
+      <div class="footer text-center">
+        <h2 class="sr-only">Welcome to my book collection...</h2>
+        <p>
+          <audio autoplay="autoplay" controls="controls">
+             <source src="welcometomybookcollection.mp3" />
+          </audio>
+        </p>
+        <p><span class="glyphicon glyphicon-heart"></span> from all the books who love <a href="https://www.youtube.com/watch?v=weNO9k1TXS0">Glenn Danzig</a>.</p>
       </div>
 
     </div>
@@ -63,6 +42,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
