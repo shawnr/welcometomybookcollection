@@ -354,7 +354,8 @@ module.exports = function (grunt) {
             'styles/fonts/{,*/}*.*',
             'bower_components/bootstrap/fonts/*.*',
             'fonts/*.*',
-            'CNAME'
+            'CNAME',
+            '*.mp3'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
